@@ -6,7 +6,7 @@ image.save('goldcoin.png')
 greed = True
 while (greed is True):
     try:
-        coin = pyautogui.locateOnScreen('coin.png')
+        coin = pyautogui.locateOnScreen('goldcoin.png')
         print(coin)
 
         coinx, coiny = pyautogui.center(coin)
