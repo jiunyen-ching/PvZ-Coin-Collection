@@ -11,6 +11,7 @@ Package: pyautogui
 2. Capture a screenshot of the game using `pyautogui.screenshot()`
 3. Manually crop the coin or diamond image and save it to a location
 4. Pass location of image to `pyautogui.locateOnScreen()`
+5. Run with `python main.py`
 
 # Note
 Capturing the image of coin using Window's screenshot function does not work. Must use pyautogui's screenshot() method.
